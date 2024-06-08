@@ -1,0 +1,13 @@
+const mongoose = require('mongoose');
+
+const vendeurSchema = new mongoose.Schema({
+  annonces: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Annonce'
+  }],
+  attribute2: String
+});
+
+const Vendeur = mongoose.model('Vendeur', vendeurSchema);
+
+module.exports = Vendeur;
