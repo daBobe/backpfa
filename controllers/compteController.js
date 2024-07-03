@@ -1,4 +1,4 @@
-const Compte = require('../models/compte');
+const Compte = require('../models/Compte');
 
 // Create a new compte
 exports.createCompte = async (req, res) => {
