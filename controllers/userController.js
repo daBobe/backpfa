@@ -1,5 +1,5 @@
 const User = require('../models/User');
-const Compte = require('../models/compte');
+const Compte = require('../models/Compte');
 exports.createUser = async (req, res) => {
   try {
     // Create a new User
